@@ -1,0 +1,14 @@
+{
+    "name": "dmitry/backend",
+    "authors": [
+        {
+            "name": "GooDopius",
+            "email": "dimasirotin0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

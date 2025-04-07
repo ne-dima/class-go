@@ -33,3 +33,9 @@ cache/
 
 # Git
 .git/
+
+# Exclude avatar images and uploads
+uploads/
+*.jpeg
+*.jpg
+*.png
