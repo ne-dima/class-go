@@ -137,11 +137,9 @@ export default {
     } else {
       this.$toast.success('Вы успешно присоединились к курсу!')
 
-      // Закрываем модалку и очищаем поле
       this.showModal = false
       this.courseCode = ''
 
-      // Автообновление курса
       setTimeout(() => {
         window.location.reload()
       }, 100)

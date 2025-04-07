@@ -425,7 +425,7 @@ h3 {
   border-radius: 12px;
   padding: 20px;
   flex-shrink: 0;
-  align-self: flex-start; /* ⬅ не растягиваться */
+  align-self: flex-start; 
 }
 
 .student {

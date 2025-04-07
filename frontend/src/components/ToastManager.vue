@@ -116,7 +116,6 @@ export default {
   color: #4b5563;
 }
 
-/* Плавная анимация появления из-за границы экрана */
 .toast-slide-enter-active {
   transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }

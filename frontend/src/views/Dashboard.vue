@@ -130,7 +130,6 @@ export default {
   color: #111827;
 }
 
-/* Красивая заглушка */
 .empty-state {
   min-height: 250px;
   display: flex;

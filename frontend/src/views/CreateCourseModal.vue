@@ -70,7 +70,7 @@
 
       if (res.ok && result.success) {
         this.$root.$toast.success('✅ Курс успешно создан!')
-        this.$emit('close') // Закрываем модалку
+        this.$emit('close') 
         this.$router.push(`/course/${result.course_id}`)
       } else {
         this.$root.$toast.error(result.error || 'Ошибка при создании курса')

@@ -18,7 +18,6 @@
       </main>
     </div>
 
-    <!-- Менеджер тостов -->
     <ToastManager ref="toast" />
   </div>
 </template>
@@ -52,7 +51,6 @@ export default {
     }
   },
   mounted() {
-    // Устанавливаем ссылку на ToastManager для глобального доступа
     this.$setToastRef(this.$refs.toast)
   }
 }

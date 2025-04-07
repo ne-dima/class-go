@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 
 header('Content-Type: application/json');
 
-// ⬅️ ВАЖНО: получить подключение к БД
 $pdo = getConnection();
 
 // Получаем данные из JSON
