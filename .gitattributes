@@ -1,0 +1,7 @@
+* text=auto
+*.js text
+*.vue text
+*.php text
+*.json text
+*.md text
+*.env text
